@@ -17,3 +17,12 @@ To modify, change the path of the folder you want to check in the directory vari
 Python Library Requirements:
 The libraries used to develop this software are available while you install python3 and pip3. Only the <i>requests</i> library is the one which has to be explicitly installed.<br>
 <b><i>pip3 install requests</b></i>
+
+<h1>How to install and operate the software?</h1>
+<br>
+1) Open your terminal and paste <i>git clone https://github.com/SubhasisMukh/virustotal-vt3.git</i> <br>
+2) <i>cd virustotal-vt3</i><br>
+3) Copy paste all the files you need to check with virustotal in the <files_to_uplaod> folder<br>
+4) <i>pip3 install requests</i><br>
+4) Run <i>bash vt_start_trigger.sh</i><br>
+5) You can check the output json files in the <i>output_json</i> folder after analysis is completed and Virustotal sends the result.
