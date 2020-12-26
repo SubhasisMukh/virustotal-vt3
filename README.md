@@ -13,3 +13,7 @@ The output json is stored in <i>output_json</i> folder.
 
 <i>vt_upload_folder.py</i> is the code which checks a whole folder and generates json output.<br>
 To modify, change the path of the folder you want to check in the directory variable of the <i>get_files_from_folder()</i> function.
+
+Python Library Requirements:
+The libraries used to develop this software are available while you install python3 and pip3. Only the <i>requests</i> library is the one which has to be explicitly installed.
+<b><i>pip3 install requests</b></i>
